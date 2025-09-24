@@ -26,8 +26,7 @@ ARGV.each do |arg|
       break
     end
   end
-
-  # لو ما لقينا مكان (كل العناصر أصغر)، نحطه في الأخير
+  # إذا كل اللي قبله أصغر، نحطه في الأخير
   result << i_arg unless is_inserted
 end
 
